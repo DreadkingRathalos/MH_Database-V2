@@ -3,7 +3,7 @@ print('Welcome, what monster class are you looking for?')
 Monster_Class=input('Flying Wyvern, Fanged Wyvern, Brute Wyvern, Bird Wyvern, Piscine Wyvern, Levianths, Fanged Beasts, Amphians, Carapaceons, Elder Dragons, Other')
 
 if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
-    Monster=input('Rathian, Rathalos, Basrios, Khezu, Nargacuga, Tigrex, Diablos, Barioth, Bazelgeuse, Espinas')
+    Monster=input('Rathian, Rathalos, Basrios, Khezu, Nargacuga, Tigrex, Diablos, Barioth, Bazelgeuse, Espinas, Astalos')
     if(Monster == 'Rathian'):
             Apex=input('Base, Apex')
             if(Apex == 'Base'):
@@ -65,7 +65,7 @@ if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
             Aliments = 'Aliments: Poison' 
             Weaknesses = 'Weaknesses: Thunder' 
             Breakable_Parts = 'Breakable Parts: Head, Wings, and tail'
-            Rare_Materials = 'Rare Materials: Large Wyvern Gem, Nargacuga'
+            Rare_Materials = 'Rare Materials: Large Wyvern Gem, Nargacuga Mantle'
     if(Monster == 'Tigrex'):
         Monster_Name = 'Monster: Tigrex'
         Elements = 'Elements: None'
@@ -141,6 +141,7 @@ if(Monster_Class == 'Fanged Wyvern'or Monster_Class in 'Fanged'):
         Aliments = 'Weaknesses: Water' 
         Weaknesses = 'Aliments: Thunderblight'
         Breakable_Parts = 'Breakable Parts: Head, Back, and tail'
+        Rare_Materials = 'Wyvern Gem, Large Wyvern Gem'
     if(Monster == 'Zinogre'):
             Apex=input('Base, Apex')
             if(Apex == 'Base'):
@@ -149,7 +150,7 @@ if(Monster_Class == 'Fanged Wyvern'or Monster_Class in 'Fanged'):
                 Aliments = 'Aliments: Thunderblight' 
                 Weaknesses = 'Weaknesses: Ice' 
                 Breakable_Parts = 'Breakable Parts: Head, Back, Legs, and tail'
-                Rare_Materials = 'Rare Materials: Zinogre Plate, Zinogre Jasper, Zinogre Mantle'
+                Rare_Materials = 'Rare Materials: Zinogre Plate, Zinogre Jasper, Zinogre Skymerald'
             if(Apex == 'Apex'):
                 Monster_Name = 'Monster: Apex Zinogre'
                 Elements = 'Elements: Thunder'
@@ -225,7 +226,7 @@ if(Monster_Class == 'Levianths'):
             print('Rare Materials: Mizutsune Plate, Mizutsune Orb, Mizutsune Mantle')
         if(Apex == 'Apex'):
             print('Monster: Apex Mizutsune, Elements: Water, Aliments: Waterblight, Fire-Blastblight, Bubble, Weaknesses: Thunder, Breakable Parts: Head, Front Legs, and tail')
-            print('Rare Materials: Mizutsune Plate, Mizutsune Ruby')
+            print('Rare Materials: Mizutsune Plate, Mizutsune Gem')
     if(Monster == 'Somnacanth'):
         Subspecies=input('Base or Aurora')
         if(Subspecies == 'Base'):
@@ -244,7 +245,7 @@ if(Monster_Class == 'Levianths'):
             print('Rare Materials: Almudron Plate, Golden Almudron Orb, Almudron Mantle')
         if(Subspecies == 'Magma'):
             print('Monster: Magma Almudron, Elements: Fire, Aliments: Fireblight, Weaknesses: Water, Breakable Parts: Head, Back, and tail')
-            print('Rare Materials: Almudron Plate, Golden Almudron Orb, Almudron Mantle')
+            print('Rare Materials: Magmadron Mantle')
 
 if(Monster_Class == 'Fanged Beasts'or Monster_Class in 'Beasts'):
     Monster=input('Rajang, Bishaten, Arzuros, Lagombi, Volvidon, Goss Harag')
@@ -289,13 +290,16 @@ if(Monster_Class == 'Amphians'):
     Monster=input('Tetradon')
     if(Monster == 'Tetradon'):
         print('Monster: Tetradon, Elements: Water, Aliments: Waterblight, Weaknesses: Thunder, Breakable Parts: Head, and Arms')
+        Rare_Materials = ''
 
 if(Monster_Class == 'Carapaceons'):
     Monster=input('Daimyo Hermitaur, Shogun Ceanataur')
     if(Monster == 'Daimyo Hermitaur'):
         print('Monster: Daimyo Hermitaur, Elements: Water, Aliments: Waterblight, Weaknesses: Ice, Breakable Parts: Arms and Shell')
+        Rare_Materials = 'Timeworn Horn'
     if(Monster == 'Shogun Ceanataur'):
         print('Monster: Shogun Ceanataur, Elements: None, Aliments: Bleeding, Weaknesses: Ice, Breakable Parts: Arms, and Shell')
+        Rare_Materials = 'Heavy Wyvern Scalp'
 
 if(Monster_Class == 'Temnoceran'or Monster_Class in 'Temnoceran'):
     Monster=input('Rakna-Kadaki')

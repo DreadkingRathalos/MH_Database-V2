@@ -1,6 +1,6 @@
 #Monster Hunter Rise Sunbreak is owned by Capcom
 print('Welcome, what monster class are you looking for?')
-Monster_Class=input('Flying Wyvern, Fanged Wyvern, Brute Wyvern, Bird Wyvern, Piscine Wyvern, Levianths, Fanged Beasts, Amphians, Carapaceons, Elder Dragons, Other')
+Monster_Class=input('Flying Wyvern, Fanged Wyvern, Brute Wyvern, Bird Wyvern, Piscine Wyvern, Levianths, Fanged Beasts, Amphians, Carapaceons, Temnoceran, Elder Dragons, Other')
 
 if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
     Monster=input('Rathian, Rathalos, Basrios, Khezu, Nargacuga, Tigrex, Diablos, Barioth, Bazelgeuse, Espinas, Astalos')

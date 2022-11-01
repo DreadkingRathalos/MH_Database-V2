@@ -5,7 +5,7 @@ Monster_Class=input('Flying Wyvern, Fanged Wyvern, Brute Wyvern, Bird Wyvern, Pi
 if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
     Monster=input('Rathian, Rathalos, Basrios, Khezu, Nargacuga, Tigrex, Diablos, Barioth, Bazelgeuse, Espinas, Astalos')
     if(Monster == 'Rathian'):
-            Apex=input('Base, Apex')
+            Apex=input('Base, Apex, Gold')
             if(Apex == 'Base'):
                 Monster_Name = 'Monster: Rathian'
                 Elements = 'Elements: Fire' 
@@ -19,9 +19,16 @@ if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
                 Aliments = 'Aliments: Fireblight, Poison, Deadly Poison' 
                 Weaknesses = 'Weaknesses: Dragon'
                 Breakable_Parts = 'Breakable Parts: Head, Back, Wings, and tail'
-                Rare_Materials = 'Rare Materials: Rathian Plate, Rathian Ruby' 
+                Rare_Materials = 'Rare Materials: Rathian Plate, Rathian Ruby, Rathian Mantle'
+            if(Apex == 'Gold'):
+                Monster_Name = 'Monster: Gold Rathian'
+                Elements = 'Elements: Fire' 
+                Aliments = 'Aliments: Fireblight, Poison'
+                Weaknesses ='Weaknesses: Thunder'
+                Breakable_Parts = 'Breakable Parts: Head, Back, Wings, and tail'
+                Rare_Materials = 'Rare Materials: Rathian Ruby, Rathian Mantle'
     if(Monster == 'Rathalos'):
-            Apex=input('Base, Apex')
+            Apex=input('Base, Apex, Sliver')
             if(Apex == 'Base'):
                 Monster_Name = 'Monster: Rathalos'
                 Elements = 'Elements: Fire'
@@ -220,12 +227,15 @@ if(Monster_Class == 'Piscine Wyvern'or Monster_Class in 'Piscine'):
 if(Monster_Class == 'Levianths'):
     Monster=input('Mizutsune, Somnacanth, Royal Ludroth, Almudron')
     if(Monster == 'Mizutsune'):
-        Apex=input('Base, Apex')
+        Apex=input('Base, Apex, Violet')
         if(Apex == 'Base'):
             print('Monster: Mizutsune, Elements: Water, Aliments: Waterblight, Bubble, Weaknesses: Thunder, Breakable Parts: Head, Front Legs, and tail')
             print('Rare Materials: Mizutsune Plate, Mizutsune Orb, Mizutsune Mantle')
         if(Apex == 'Apex'):
             print('Monster: Apex Mizutsune, Elements: Water, Aliments: Waterblight, Fire-Blastblight, Bubble, Weaknesses: Thunder, Breakable Parts: Head, Front Legs, and tail')
+            print('Rare Materials: Mizutsune Plate, Mizutsune Gem')
+        if(Apex == 'Apex'):
+            print('Monster: Violet Mizutsune, Elements: Fire, Aliments: Fireblight, Weaknesses: Thunder, Breakable Parts: Head, Front Legs, and tail')
             print('Rare Materials: Mizutsune Plate, Mizutsune Gem')
     if(Monster == 'Somnacanth'):
         Subspecies=input('Base or Aurora')
